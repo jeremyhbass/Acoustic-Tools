@@ -1,0 +1,15 @@
+name: acoustic_tools
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=2.7.*
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - pip
+  - pip:
+    - os
+    - tkinter
+    - tkinter.messagebox
